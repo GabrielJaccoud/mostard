@@ -5,6 +5,7 @@ import CharactersSection from './components/sections/CharactersSection';
 import MusicSection from './components/sections/MusicSection';
 import AudiobookSection from './components/sections/AudiobookSection';
 import QuizSection from './components/sections/QuizSection';
+import ReadingImportanceSection from './components/sections/ReadingImportanceSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MusicSection />
       <AudiobookSection />
       <QuizSection />
+      <ReadingImportanceSection />
     </div>
   );
 }
