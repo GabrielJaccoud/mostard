@@ -8,6 +8,10 @@ import QuizSection from './components/sections/QuizSection';
 import ReadingImportanceSection from './components/sections/ReadingImportanceSection';
 import AuthorSection from './components/sections/AuthorSection';
 import PublisherSection from './components/sections/PublisherSection';
+import BehindScenesSection from './components/sections/BehindScenesSection';
+import VoicesSection from './components/sections/VoicesSection';
+import FinalCTASection from './components/sections/FinalCTASection';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
       <ReadingImportanceSection />
       <AuthorSection />
       <PublisherSection />
+      <BehindScenesSection />
+      <VoicesSection />
+      <FinalCTASection />
+      <Footer />
     </div>
   );
 }
