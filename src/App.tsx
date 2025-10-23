@@ -10,6 +10,8 @@ import AuthorSection from './components/sections/AuthorSection';
 import PublisherSection from './components/sections/PublisherSection';
 import BehindScenesSection from './components/sections/BehindScenesSection';
 import VoicesSection from './components/sections/VoicesSection';
+import WisdomSection from './components/sections/WisdomSection';
+import GallerySection from './components/sections/GallerySection';
 import FinalCTASection from './components/sections/FinalCTASection';
 import Footer from './components/layout/Footer';
 
@@ -23,6 +25,8 @@ function App() {
       <AudiobookSection />
       <QuizSection />
       <ReadingImportanceSection />
+      <WisdomSection />
+      <GallerySection />
       <AuthorSection />
       <PublisherSection />
       <BehindScenesSection />
